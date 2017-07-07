@@ -1,0 +1,353 @@
+/**
+
+
+/** views/default/page/default **
+
+.wrppr {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.page-wrapper {
+	margin-left: -72px;
+}
+
+.custom-head {
+	min-height: 144px;
+	overflow: hidden;
+}
+
+.secondary-site-nav {
+	position: fixed;
+	z-index: 550;
+	width: 100%;
+	max-width: 1095px;
+}
+
+.custom-site-header {
+	min-height: 56px;
+}
+
+.fixed-menu-filter {
+	padding-top: 12px;
+	top: 96px;
+	max-width: 1110px;
+	width: 100%;
+	background-color: #FFF;
+	position: fixed;
+	z-index: 550;
+	background-color: #FFF;
+}
+
+.elgg-system-messages {
+	margin: 0 auto;
+	position: fixed;
+	z-index: 9999;
+	top: auto !important;
+	right: auto !important;
+	max-width: 630px !important;
+	width: 100%;
+}
+
+.elgg-system-messages li {
+	margin-top: 0 !important;
+}
+
+.elgg-message {
+	color: #FFF;
+	display: block;
+	padding: 10px 20px;
+	cursor: pointer;
+	opacity: 0.9;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+	border-radius: 0 !important;
+}
+
+.cast-elgg-page-messages {
+	font-size: 90%;
+	font-weight: normal;
+	padding-top: 1px;
+	padding-left: 30px;
+	padding-right: 1px;
+	margin-top: -3px;
+	margin-left: -60px;
+	position: fixed;
+	min-height: 0;
+	max-width: 955px;
+	width: 100%;
+}
+
+.cast-main-content {
+	max-width: 1400px;
+	width: 100%;
+}
+
+.set-site-menues-wrapper {
+	max-width: 154px;
+	width: 100%;
+	margin: -14px 0 0 0 !important;
+	float: right;
+	border-top: 1px solid #dff0d8;
+	border-right: 1px solid #dff0d8;
+	border-bottom: 1px solid #dff0d8;
+	border-left: 4px solid #dff0d8;
+	position: fixed;
+	z-index: 555;
+}
+
+.set-my-site-menues {
+	font-size: 90%;
+	color: #444;
+	font-weight: bold;
+	background-color: #F7F7F7;
+	border-bottom: 1px solid #dff0d8;
+}
+
+.personal-site-menues {
+	font-size: 90%;
+	padding: 7px 4px 12px 4px;
+	max-width: 154px;
+	width: 100%;
+}
+
+.personal-menu-item-header {
+	color: #444;
+	font-size: 17px;
+	padding: 7px 7px 2px 12px;
+	max-width: 154px;
+}
+
+.personal-menu-item {
+	font-size: 17px;
+	padding: 5px 4px 2px 4px;
+	min-width: 32px;
+}
+
+.h2, h2 {
+	font-size: 100% !important;
+}
+
+.h4, h4 {
+	font-size: 13px !important;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.inline-block-pad-center {
+	padding-top: 2px;
+}
+
+.pagination-pad {
+	padding-left: 15px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding: 0 !important;
+}
+
+.badge {
+	padding: 5px 12px 5px 10px !important;
+	font-size: 11px !important;
+	border: 1px solid #dff0d8;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	color: #fff;
+	background-color: #337ab7;
+}
+
+.row {
+	margin: 0 !important;
+}
+
+.container-foot-right {
+	color: #333;
+	float: right;
+	padding: 5px 10px;
+	background-color: #dff0d8;
+	width: 235px;
+	border: 2px solid #CCC;
+}
+
+.main-page-content {
+	padding-right: 12px !important;
+}
+
+.elgg-menu-filter {
+	border-bottom: none !important;
+}
+
+
+.elgg-menu-filter > li {
+	border-color: #dff0d8 !important;
+}
+
+.elgg-list > li {
+	border-color: #dff0d8 !important;
+}
+
+.filter-wrapper {
+	margin-left: -52px;
+}
+
+.filter-float-left {
+	float: left;
+	margin-top: -6px;
+}
+
+.filter-float-left-icon {
+	padding: 6px 22px;
+	padding-left: 15px;
+	margin-right: -6px;
+	margin-top: -6px;
+	margin-left: 19px;
+	background-color: #FFF;
+	border: 1px solid #dff0d8;
+}
+
+.content-stats {
+	margin-top: 22px;
+	max-width: 206px;
+	width: 100%;
+	position: fixed;
+}
+
+.elgg-table-alt {
+	width: 100%;
+	border-top: 1px solid #dff0d8 !important;
+}
+
+th {
+	border-left: 4px solid #dff0d8 !important;
+}
+
+tr, th, td {
+	margin: 0;
+	padding: 10px !important;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+.elgg-table-alt td,
+.elgg-table-alt th {
+	padding: 6px 0;
+	border-bottom: 1px solid #dff0d8 !important;
+}
+
+.elgg-icon {
+	color: #CCC;
+	font-size: inherit !important;
+	line-height: normal !important;
+}
+
+.h3, h3 {
+	font-size: 13px !important;
+}
+
+/** Form Input Styling **
+
+textarea,
+input {
+	border: 1px solid #dff0d8 !important;
+	color: #666;
+	font: 100% Arial, Helvetica, sans-serif;
+	padding: 7px 6px;
+	width: 100%;
+	border-radius: 0 !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.input-group-addon {
+	border: 1px solid #dff0d8 !important;
+	border-radius: 0 !important;
+}
+
+.elgg-list > li:last-child {
+	border-bottom: none;
+}
+
+.panel-default>.panel-heading {
+	font-size: 90%;
+	color: #333;
+	background-color: #F7F7F7 !important;
+	border-color: #ddd;
+}
+
+.alert {
+	border: none !important;
+	border-radius: 0 !important;
+}
+
+/** Form Input Styling **
+
+textarea,
+input {
+	border: 1px solid #dff0d8 !important;
+	color: #666;
+	font: 100% Arial, Helvetica, sans-serif;
+	padding: 7px 6px;
+	width: 100%;
+	border-radius: 0 !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.input-group-addon {
+	border: 1px solid #dff0d8 !important;
+	border-radius: 0 !important;
+}
+
+.elgg-list > li:last-child {
+	border-bottom: none;
+}
+
+.panel-default>.panel-heading {
+	font-size: 90%;
+	color: #333;
+	background-color: #F7F7F7 !important;
+	border-color: #ddd;
+}
+
+/** BAGplaces Panel **
+
+.BAGplaces {
+	margin-top: -20px;
+	position: fixed;
+	z-index: 550;
+}
+
+.BAGplaces-label {
+	padding: 4px 4px 2px 4px;
+	margin: -17px 0 0 0;
+	max-width: 205px;
+	width: 100%;
+	float: right;
+	background-color: #F7F7F7;
+	border: 1px solid #dff0d8;
+	border-left: none;
+	position: fixed;
+	z-index: 550;
+}
+
+.BAGplaces-content {
+	padding: 10px;
+	padding-top: 58px;
+		margin-top: -28px;
+	border: 1px solid #dff0d8;
+	border-top: none;
+	border-right: none;
+	min-width: 310px;
+	width: 100%;
+	min-height: 565px;
+	height: 100%;
+	border-radius: 0;
+}

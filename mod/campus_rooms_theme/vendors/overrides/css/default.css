@@ -1,0 +1,318 @@
+
+
+/** views/default/page/default **/
+
+a:hover {
+	text-decoration: none !important;
+	color: #3AB51C !important;
+}
+
+.btn-danger:hover {
+	color: #FFF !important;
+	background-color: #679E13 !important;
+}
+
+.container {
+	padding: 0 !important;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.all-rooms-gen {
+	padding: 0 25px 0 26px;
+	border: 1px solid #dff0d8;
+	border-left-width: 4px;
+}
+
+.container-fluid {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.page-wrapper {
+	margin-top: 22px;
+	margin-left: -27px;
+}
+
+.elgg-list > li {
+	padding-right: 14px;
+	margin-right: -1px;
+	border-right: 1px solid #dff0d8;
+	border-bottom: 1px solid #dff0d8;
+}
+
+.elgg-list > li:first-child {
+	margin-top: -7px;
+}
+
+.elgg-list > li:last-child {
+	border-bottom: none;
+}
+
+.custom-head {
+	min-height: 90px;
+	overflow: hidden;
+}
+
+.custom-site-header {
+	min-height: 56px;
+}
+
+.fixed-menu-filter {
+	padding-top: 20px;
+	top: 53px;
+	width: 100%;
+	background-color: #FFF;
+	position: fixed;
+	z-index: 550;
+	background-color: #FFF;
+}
+
+.elgg-avatar-small > a > img {
+	width: 40px;
+	height: 40px;
+	border-radius: 0px !important;
+	background-clip: border;
+	background-size: 40px;
+}
+
+.modal {
+	z-index: 1750 !important;
+}
+
+.elgg-system-messages {
+	margin: 0 auto;
+	position: fixed;
+	z-index: 750 !important;
+	top: auto !important;
+	right: auto !important;
+	max-width: 838px !important;
+	width: 100%;
+}
+
+body > div.container > ul > li.hidden > p {
+	font-weight: normal !important;
+}
+
+.elgg-system-messages li {
+	margin-top: 0 !important;
+}
+
+.elgg-message {
+	font-size: 90% !important;
+	font-weight: normal !important;
+	color: #FFF;
+	display: block;
+	padding: 10px 20px;
+	cursor: pointer;
+	opacity: 0.9 !important;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+	border-radius: 0 !important;
+}
+
+.cast-main-content {
+	width: 100%;
+}
+
+.h2, h2 {
+	font-size: 100% !important;
+}
+
+.h4, h4 {
+	font-size: 13px !important;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.inline-block-pad-center {
+	padding-top: 2px;
+}
+
+.pagination-pad {
+	padding-left: 15px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding: 0 !important;
+}
+
+.badge {
+	padding: 5px 12px 5px 10px !important;
+	font-size: 11px !important;
+	border: 1px solid #dff0d8;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	color: #fff;
+	background-color: #337ab7;
+}
+
+.row {
+	margin: 0 !important;
+}
+
+.container-foot-right {
+	color: #333;
+	float: right;
+	padding: 5px 10px;
+	background-color: #dff0d8;
+	width: 235px;
+	border: 2px solid #CCC;
+}
+
+.main-page-content {
+	padding-right: 12px !important;
+	margin-right: -1px;
+}
+
+.elgg-menu-filter {
+	border-bottom: none !important;
+}
+
+
+.elgg-menu-filter > li {
+	border-color: #dff0d8 !important;
+}
+
+.filter-wrapper {
+	margin-left: -165px;
+}
+
+.filter-float-left {
+	float: left;
+	margin-top: -6px;
+}
+
+.filter-float-left-icon {
+	padding: 6px 22px;
+	padding-left: 15px;
+	margin-top: -6px;
+	margin-left: 19px;
+	background-color: #FFF;
+	border: 1px solid #dff0d8;
+}
+
+.content-stats {
+	margin-top: 22px;
+	max-width: 206px;
+	width: 100%;
+	position: fixed;
+}
+
+.elgg-table-alt {
+	width: 100%;
+	border-top: 1px solid #dff0d8 !important;
+}
+
+th {
+	border-left: 4px solid #dff0d8 !important;
+}
+
+tr, th, td {
+	margin: 0;
+	padding: 10px !important;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+.elgg-table-alt td,
+.elgg-table-alt th {
+	padding: 6px 0;
+	border-bottom: 1px solid #dff0d8 !important;
+}
+
+.elgg-icon {
+	color: #CCC;
+	font-size: inherit !important;
+	line-height: normal !important;
+}
+
+.h3, h3 {
+	font-size: 13px !important;
+}
+
+/** Form Input Styling **/
+
+textarea,
+input {
+	border: 1px solid #dff0d8 !important;
+	color: #666;
+	font: 100% Arial, Helvetica, sans-serif;
+	padding: 7px 6px;
+	width: 100%;
+	border-radius: 0 !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.input-group-addon {
+	border: 1px solid #dff0d8 !important;
+	border-radius: 0 !important;
+}
+
+.panel-default>.panel-heading {
+	font-size: 90%;
+	color: #333;
+	background-color: #F7F7F7 !important;
+	border-color: #ddd;
+}
+
+.alert {
+	border: none !important;
+	border-radius: 0 !important;
+}
+
+.page-title-head {
+	font-size: 100%;
+	font-weight: bold;
+	color: #666 !important;
+}
+
+.grower {
+	float: right;
+	margin-right: 46px;
+}
+
+.grower-tabs {
+	font-size: 100%;
+	font-weight: normal;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.BAGplaces {
+	margin-top: -28px;
+	position: fixed;
+	z-index: 550;
+}
+
+.friends-picker-wrapper {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 720px;
+	max-height: 155px !	important;
+}
+
+.btn {
+	border: 1px solid #dff0d8 !important;
+	border-radius: 0 !important;
+}
+
+.mail-popover-content-container a {
+	font-size: 95%;
+}
+
+.mail-popover-content-container {
+	width: 100%;
+	min-width: 355px;
+}

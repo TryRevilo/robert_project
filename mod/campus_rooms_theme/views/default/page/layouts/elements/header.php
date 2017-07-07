@@ -1,0 +1,3 @@
+<?php
+	
+	// Overrides the header
